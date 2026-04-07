@@ -1,0 +1,65 @@
+.HeaderBar {
+  display: flex;
+  width: 418px;
+  height: 64px;
+  /* padding: 21.333px 17.778px; */
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding-left: 20px;
+  /* border-bottom: 1.333px solid #050800; */
+  /* border-radius: 16px 16px 16px 16px; */
+  /* text-align: center; */
+  /* backdrop-filter: blur(1.7777777910232544px); */
+}
+
+.HeaderBar > h1 {
+  position: absolute;
+  display: flex;
+  color: var(--base-foreground, #fff);
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: #121411;
+  font-family: "Akira";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%; /* 20px */
+  letter-spacing: -0.2px;
+  padding-left: 85px;
+}
+
+.HeaderBar > p {
+  position: relative;
+  margin: auto;
+  top: 20px;
+  left: 48px;
+  color: var(--base-muted-foreground, #a9aaa9);
+  text-align: center;
+
+  /* text-sm/leading-normal/normal */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--text-sm-line-height, 20px); /* 142.857% */
+}
+
+.HeaderBar > p > a {
+  color: #478b12;
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  /* text-underline-position: from-font; */
+}
+
+/* .HeaderBar > a {
+  padding-right: 99px;
+} */

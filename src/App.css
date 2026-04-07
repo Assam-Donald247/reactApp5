@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Akira";
+  src: url("./fonts/Akira\ Expanded\ Demo.otf");
+}
+
+@font-face {
+  font-family: "ibm";
+  src: url("./fonts/IBMPlexSans-VariableFont_wdth\,wght.ttf");
+}
+
+body {
+  background-image: url("./components/img/back-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.headbar {
+  display: flex;
+  width: 100%;
+  height: 79px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background: var(--base-card, #1a1b1a);
+}
+
+.logo {
+  /* display: flex; */
+  margin: auto;
+  align-self: center;
+  justify-content: center;
+  width: 137.869px;
+  height: 26.667px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-1-5, 6px);
+  align-self: stretch;
+  width: 100%;
+  padding: 12px;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: var(--border-radius-rounded-md, 8px);
+  border: var(--border-width-border, 1px) solid
+    var(--base-input, rgba(255, 255, 255, 0.15));
+  background: #161616;
+  color: #fff;
+  
+}
+
+label {
+  color: #fff;
+  text-align: center;
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: var(--text-sm-line-height, 20px);
+}
+
+p {
+  color: var(--base-popover-foreground, #fff);
+
+  /* text-xs/leading-normal/normal */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-xs-font-size, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--text-xs-line-height, 16px); /* 133.333% */
+}
+
+span {
+  color: var(--base-popover-foreground, #fff);
+
+  /* text-xs/leading-normal/normal */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-xs-font-size, 12px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--text-xs-line-height, 16px); /* 133.333% */
+}
