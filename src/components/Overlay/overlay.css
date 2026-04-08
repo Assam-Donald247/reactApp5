@@ -2,7 +2,8 @@
 
 .Overlay {
   display: flex;
-  height: 100%;
+  position: relative;
+  height: 640px;
   /* padding: 90px 495px; */
   justify-content: center;
   align-items: center;
@@ -14,5 +15,6 @@
   backdrop-filter: blur(5px);
   z-index: 1;
   width: 100%;
-  aspect-ratio: 82/82;
+  /* top: 60px; */
+  /* aspect-ratio: 82/87; */
 }
