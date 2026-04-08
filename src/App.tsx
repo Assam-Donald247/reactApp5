@@ -1,6 +1,8 @@
 import "./App.css";
-import Overlay from "./components/pages/ForgotPass/Overlay/overlay";
+// import OverlayA from "./components/pages/ForgotPass/Overlay/overlay";
 import Logo from "./components/img/Logo.svg";
+import OverlayB from "./components/pages/PasswordOTP/Overlay/overlay";
+
 
 function App() {
   return (
@@ -9,7 +11,8 @@ function App() {
         <img className="logo" src={Logo} />
       </div>
       <div>
-        <Overlay />
+        {/* <OverlayA /> */}
+        <OverlayB />
       </div>
     </>
   );

@@ -1,0 +1,30 @@
+.modalOpen {
+  display: flex;
+  height: 340px;
+  width: 340px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: var(--border-radius-rounded-xl, 14px);
+  border: 1px solid var(--base-border, rgba(255, 255, 255, 0.1));
+  background: var(--base-card, #1a1b1a);
+  position: absolute;
+  /* background-color: black; */
+  z-index: 100;
+  margin-left: 20px;
+}
+
+.modalClose {
+  display: none;
+  position: absolute;
+}
+
+.closeButton {
+  width: 24px;
+  height: 24px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}

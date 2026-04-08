@@ -1,12 +1,12 @@
 import "./overlay.css";
-import VerifyContainer from "../VerifyContainer/verifyContainer";
+import VerifyContainerA from "../VerifyContainer/verifyContainer";
 
-function Overlay() {
+function OverlayA() {
   return (
     <div className="Overlay">
-      <VerifyContainer />
+      <VerifyContainerA />
     </div>
   );
 }
 
-export default Overlay;
+export default OverlayA;
