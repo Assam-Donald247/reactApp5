@@ -10,6 +10,8 @@ function SVT() {
     setToggleState(index);
   };
 
+  // const [continue, setContinue] = useState(false);
+
   return (
     <div className="SVT">
       <p>How would you like to recover your password?</p>
@@ -29,14 +31,18 @@ function SVT() {
       </div>
       <div className="tab-content">
         <div className={toggleState === 1 ? "active-content" : "content"}>
-          <p className="phonetext">To recover your password, please input your phone number below</p>
+          <p className="phonetext">
+            To recover your password, please input your phone number below
+          </p>
           <PhoneNumber />
           <div className="log-section">
             <button className="LogsButton">Continue</button>
           </div>
         </div>
         <div className={toggleState === 2 ? "active-content" : "content"}>
-          <p className="mailtext">To recover your password, please input your phone number below</p>
+          <p className="mailtext">
+            To recover your password, please input your phone number below
+          </p>
           <UserName />
           <div className="log-section">
             <button className="LogsButton">Continue</button>

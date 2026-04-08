@@ -3,10 +3,10 @@ import VerifyContainer from "../VerifyContainer/verifyContainer";
 
 function Overlay() {
   return (
-  <div className="Overlay">
-    <VerifyContainer/>
-  </div>
-);
+    <div className="Overlay">
+      <VerifyContainer />
+    </div>
+  );
 }
 
 export default Overlay;

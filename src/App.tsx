@@ -1,5 +1,5 @@
 import "./App.css";
-import Overlay from "./components/Overlay/overlay";
+import Overlay from "./components/pages/ForgotPass/Overlay/overlay";
 import Logo from "./components/img/Logo.svg";
 
 function App() {
