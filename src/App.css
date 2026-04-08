@@ -48,7 +48,6 @@ input {
     var(--base-input, rgba(255, 255, 255, 0.15));
   background: #161616;
   color: #fff;
-  
 }
 
 label {
@@ -82,3 +81,5 @@ span {
   font-weight: var(--font-weight-normal, 400);
   line-height: var(--text-xs-line-height, 16px); /* 133.333% */
 }
+
+

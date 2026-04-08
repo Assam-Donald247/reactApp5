@@ -2,6 +2,7 @@ import PhoneNumber from "../TabContent/WithNum/PhoneInput";
 import UserName from "../TabContent/WithUser/UserName";
 import "./tabview.css";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function SVT() {
   const [toggleState, setToggleState] = useState(1);
@@ -10,10 +11,23 @@ function SVT() {
     setToggleState(index);
   };
 
-  // const [continue, setContinue] = useState(false);
+  // const InputForm = () => {
+  //   const [phone, setPhone] = useState();
+  // }
+
+  // const handlePhoneInput = (e) => {
+  //   e.preventDefault();
+  //   setPhone(e.target.value)
+  // }
+
+  // const handleContinueClick = (e) => {
+  //   e.preventDefault();
+  // }
+
+  const navigate = useNavigate();
 
   return (
-    <div className="SVT">
+    <div className="homepage">
       <p>How would you like to recover your password?</p>
       <div className="bloc-tabs">
         <button
@@ -36,7 +50,7 @@ function SVT() {
           </p>
           <PhoneNumber />
           <div className="log-section">
-            <button className="LogsButton">Continue</button>
+            <button onClick={() => navigate('OTP')}className="LogsButton">Continue</button>
           </div>
         </div>
         <div className={toggleState === 2 ? "active-content" : "content"}>
@@ -45,7 +59,7 @@ function SVT() {
           </p>
           <UserName />
           <div className="log-section">
-            <button className="LogsButton">Continue</button>
+            <button onClick={() => navigate('OTP')} className="LogsButton">Continue</button>
           </div>
         </div>
       </div>

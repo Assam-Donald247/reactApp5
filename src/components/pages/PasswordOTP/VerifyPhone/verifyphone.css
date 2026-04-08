@@ -5,8 +5,9 @@
   padding: 50px 20px 32px 20px;
   align-items: center;
   gap: 10px;
-  margin-top: 60px;
+  margin-top: 10px;
   height: 0;
+  justify-content: center;
 }
 
 /* .VerifyPhone{
@@ -36,7 +37,7 @@
 .edit {
   /* display: flex; */
   color: var(--base-secondary, #d8ff83);
-  margin-top: 40px;
+  margin-top: 10px;
   /* text-sm/leading-none/medium */
   font-family: var(--font-font-sans, "IBM Plex Sans");
   font-size: var(--text-sm-font-size, 14px);

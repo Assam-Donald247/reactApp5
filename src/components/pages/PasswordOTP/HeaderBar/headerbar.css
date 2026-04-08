@@ -1,7 +1,7 @@
 .HeaderBar {
   display: flex;
   width: 418px;
-  height: 64px;
+  height: 35px;
   /* padding: 21.333px 17.778px; */
   align-items: center;
   justify-content: center;
@@ -26,7 +26,7 @@
   font-weight: 800;
   line-height: 100%; /* 20px */
   letter-spacing: -0.2px;
-  padding-left: 85px;
+  padding-left: 80px;
 }
 
 .HeaderBar > p {
@@ -58,6 +58,10 @@
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   /* text-underline-position: from-font; */
+}
+
+.back {
+  z-index: 1;
 }
 
 /* .HeaderBar > a {

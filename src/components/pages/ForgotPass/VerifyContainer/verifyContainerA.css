@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-.VerifyCont {
+.VerifyContA {
   width: 520px;
-  bottom: 110px;
+  bottom: 100px;
   border-radius: 16px;
   background-size: cover;
   background-position: center;
@@ -11,12 +11,13 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-top: 40px;
   z-index: 100;
-  padding-top: 50px;
+  /* background-color: red; */
   /* gap: 18px; */
 }
 
-.VerifyCont .BckImg {
+.BckImgA {
   width: 520px;
   /* background-color: rgba(0, 0, 0, 0.4); */
   /* backdrop-filter: blur(4px); */
@@ -24,5 +25,6 @@
   padding: 48px 0 32px 0;
   flex-direction: column;
   align-items: flex-start;
-  gap: 18px;
+  /* gap: 20px; */
+
 }

@@ -1,6 +1,6 @@
 import "./editmodal.css";
 
-import X from "./../img/X.svg";
+import X from "./../../../img/X.svg";
 import React from "react";
 
 type propTypes = {
